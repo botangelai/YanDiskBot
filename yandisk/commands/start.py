@@ -4,6 +4,8 @@ from yandisk.events import message
 async def start(event):
     await event.reply(
         f"""
-**Working!**
+**Hey!
+I'm Yandex Drive Upload Bot. I can upload files (Telegram files as well as URLs) to your Yandex Drive, if you authorise me.
+Use/login to authorise me.**
 """
     )
