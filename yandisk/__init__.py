@@ -19,7 +19,7 @@ token = None
 
 if token is None:
     if exists("token.txt"):
-        Yandex = YaDisk(yapi_id, yapi_secret, open("./token.txt", "e").read())
+        Yandex = YaDisk(yapi_id, yapi_secret, open("./token.txt", "r").read())
     else:
         Yandex = YaDisk(yapi_id, yapi_secret)
 else:
